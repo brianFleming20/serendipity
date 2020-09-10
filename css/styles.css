@@ -1,0 +1,105 @@
+body {
+  text-align: center;
+}
+
+.first {
+  font-family: 'Righteous';
+  text-align: center;
+  background-color: #fe7171;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Sections */
+.colored-section {
+  background-color: #fe7171;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Testimonial Section */
+#testimonials {
+  background-color: #ffb0b0;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 40%;
+  border: 100%;
+  margin: 20px;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.big-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  text-align: right;
+  padding: 5% 5% 10%;
+}
+
+/* navbar */
+
+.navbar {
+  padding: 0 0 4rem;
+}
+
+.navbar-brand {
+  font-family: 'Righteous', cursive;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #d54062;
+  padding-left: 10px;
+}
+
+.nav-item {
+  color: #d54062;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+
+.image {
+  width: 70%;
+  height: auto;
+}
+
+/* CTA Section */
+.cta-text {
+  padding: 100px;
+}
+
+/* Footer Section */
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+.title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+.callme{
+  font-size: 2rem;
+}
